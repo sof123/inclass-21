@@ -44,7 +44,7 @@ function login(req, res){
 
 function getUser(username){
   for (var i = 0; i < database.length;i++){
-    if (database[i].username = username){
+    if (database[i].username == username){
       return database[i]
     }
   }
